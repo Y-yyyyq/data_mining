@@ -37,9 +37,9 @@ Given the passenger data (such as age, sex, ticket class, and number of siblings
 
 | Model              | Accuracy | ROC-AUC |
 |-------------------|----------|---------|
-| Random Forest      | 0.85+    | 0.89+   |
-| Logistic Regression| 0.83+    | 0.87+   |
-| SVM                | 0.84+    | 0.88+   |
+| Random Forest      | 0.8045    | 0.8431   |
+| Logistic Regression| 0.8045    | 0.8267   |
+| SVM                | 0.8212    | 0.8372   |
 
 - `Random Forest` performed best overall and was chosen as the final model.
 - Key features: `Sex`, `Fare`, `Age`, `Pclass`, `IsAlone`, `Embarked_C`
